@@ -4,9 +4,46 @@
   <meta charset="UTF-8">
   <title>Calorie Calculator</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 2em; background: #f9f9f9; }
-    .container { background: white; padding: 2em; max-width: 400px; margin: auto; border-radius: 10px; box-shadow: 0 2px 10px #ccc; }
-    label, input, button { font-size: 1.1em; margin-top: 0.5em; }
+    body { 
+      font-family: Arial, sans-serif; 
+      padding: 2em; 
+      background: #000; /* Black background */
+      color: #fff;      /* White text */
+    }
+    .container { 
+      background: #222; 
+      padding: 2em; 
+      max-width: 400px; 
+      margin: auto; 
+      border-radius: 10px; 
+      box-shadow: 0 2px 10px #000; 
+    }
+    label, input, button { 
+      font-size: 1.1em; 
+      margin-top: 0.5em; 
+    }
+    input[type="number"] {
+      background: #333;
+      color: #fff;
+      border: 1px solid #555;
+      border-radius: 4px;
+      padding: 0.5em;
+    }
+    button {
+      background: #fff;
+      color: #000;
+      border: none;
+      border-radius: 4px;
+      padding: 0.5em 1em;
+      margin-left: 0.5em;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.2s, color 0.2s;
+    }
+    button:hover {
+      background: #444;
+      color: #fff;
+    }
     .results { margin-top: 1em; }
   </style>
 </head>
@@ -40,3 +77,4 @@
   </script>
 </body>
 </html>
+
